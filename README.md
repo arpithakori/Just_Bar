@@ -17,7 +17,7 @@ This library provides an animation similar to Just bar feature.
         testImplementation 'junit:junit:4.13'
         ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.200'
         implementation project(':justbar')
-    }
+        }
 ```
 2. For using justbar in separate application using har file, add the har file in the entry/libs folder and add the dependencies in entry/build.gradle file.
 ```groovy
