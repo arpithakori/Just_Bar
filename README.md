@@ -7,7 +7,7 @@ Inspired by [Hammad Akram/JustBar](https://github.com/Hamadakram/JustBar) - vers
 ## Features
 This library provides an animation similar to Just bar feature.
 
-<img src="https://github.com/arpithakori/JustBar/blob/main/screenshots/Just%20Bar%20gif.gif" width="256">
+<img src="https://github.com/arpithakori/JustBar/blob/main/screenshots/Just%20Bar%20gif.gif" width="500">
 
 ## Dependency
 1. For using justbar module in sample app, include the source code and add the below dependencies in entry/build.gradle to generate hap/support.har.
