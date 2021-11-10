@@ -1,0 +1,25 @@
+{
+  "app": {
+    "bundleName": "com.irozon.sample",
+    "vendor": "irozon",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.irozon.justbar",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "justbar",
+      "moduleType": "har"
+    }
+  }
+}

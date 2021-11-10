@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+              xmlns:app="http://schemas.huawei.com/apk/res-auto"
+              ohos:width="match_parent"
+              ohos:height="match_parent"
+              ohos:alignment="bottom"
+              ohos:orientation="vertical">
+
+    <com.irozon.justbar.JustBar
+        ohos:id="$+id:bottomBar"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:bottom_margin="16vp">
+        <com.irozon.justbar.BarItem
+            ohos:id="$+id:barItem"
+            ohos:width="0vp"
+            ohos:height="0vp"
+            app:icon="$graphic:ic_search"
+            app:radius="35vp" />
+
+        <com.irozon.justbar.BarItem
+            ohos:width="0vp"
+            ohos:height="0vp"
+            app:icon="$graphic:ic_chat"
+            app:radius="35vp" />
+
+        <com.irozon.justbar.BarItem
+            ohos:width="0vp"
+            ohos:height="0vp"
+            app:icon="$graphic:ic_cart"
+            app:radius="35vp"
+            app:selected="true" />
+        <com.irozon.justbar.BarItem
+            ohos:width="0vp"
+            ohos:height="0vp"
+            app:icon="$graphic:ic_settings"
+            app:radius="35vp" />
+
+
+
+    </com.irozon.justbar.JustBar>
+
+</DirectionalLayout>
