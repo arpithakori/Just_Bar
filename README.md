@@ -57,6 +57,7 @@ Attribute | Desription
 `icon` | Icon for `BarItem`
 `radius` | Radius for the `BarItem`
 
+Note: The user can only enter Red, Green and Blue colors for the attributes selectedColor, unSelectedColor, selectedIconColor and unSelectedIconColor because of the limitation mentioned in the FutureWork section.
 
 #### Action for `BarItem`:
 ```java
