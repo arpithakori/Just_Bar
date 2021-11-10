@@ -6,7 +6,8 @@ Inspired by [Hammad Akram/JustBar](https://github.com/Hamadakram/JustBar) - vers
 
 ## Features
 This library provides an animation similar to Just bar feature.
-<img src="https://github.com/applibgroup/Instalike/blob/master/screenshots/instalikeview.gif" width="256">
+
+<img src="https://github.com/arpithakori/JustBar/blob/main/screenshots/Just%20Bar%20gif.gif" width="256">
 
 ## Dependency
 1. For using justbar module in sample app, include the source code and add the below dependencies in entry/build.gradle to generate hap/support.har.
@@ -70,7 +71,7 @@ Attribute | Desription
 ## Future Work
 Since there is no alternate api for setColorFilter in HMOS platform, custom attributes - app:selectedColor, 
 app:unSelectedColor, app:selectedIconColor, app:unSelectedIconColor  is currently not supported. 
-As a result, user needs to call the createColorMatrix function and pass a colorCode as an argument which will internally call setColorMatrix(createColorMatrix(selectedColor)) to change the color of the drawable. Once HMOS platform supports setColorFilter, then this custom attribute can be included.
+As a result, user needs to call the createColorMatrix function which is used to create a color matrix and pass a colorCode as an argument which will internally call setColorMatrix(createColorMatrix(selectedColor)) to change the color of the drawable. Once HMOS platform supports setColorFilter, then this custom attribute can be included.
                                                                                                    
 ## Licence
 ```
